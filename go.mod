@@ -27,7 +27,7 @@ require (
 	github.com/digitalocean/go-qemu v0.0.0-20250212194115-ee9b0668d242
 	github.com/docker/distribution v2.8.3+incompatible
 	github.com/docker/docker v28.3.3+incompatible
-	github.com/docker/go-connections v0.5.0
+	github.com/docker/go-connections v0.6.0
 	github.com/docker/go-plugins-helpers v0.0.0-20240701071450-45e2431495c8
 	github.com/docker/go-units v0.5.0
 	github.com/godbus/dbus/v5 v5.1.1-0.20241109141217-c266b19b28e9
@@ -43,7 +43,7 @@ require (
 	github.com/klauspost/pgzip v1.2.6
 	github.com/linuxkit/virtsock v0.0.0-20241009230534-cb6a20cc0422
 	github.com/mattn/go-shellwords v1.0.12
-	github.com/mattn/go-sqlite3 v1.14.30
+	github.com/mattn/go-sqlite3 v1.14.31
 	github.com/mdlayher/vsock v1.2.1
 	github.com/moby/docker-image-spec v1.3.1
 	github.com/moby/sys/capability v0.4.0
@@ -152,10 +152,10 @@ require (
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
-	github.com/proglottis/gpgme v0.1.4 // indirect
+	github.com/proglottis/gpgme v0.1.5 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/seccomp/libseccomp-golang v0.11.1 // indirect
-	github.com/secure-systems-lab/go-securesystemslib v0.9.0 // indirect
+	github.com/secure-systems-lab/go-securesystemslib v0.9.1 // indirect
 	github.com/segmentio/ksuid v1.0.4 // indirect
 	github.com/sigstore/fulcio v1.6.6 // indirect
 	github.com/sigstore/protobuf-specs v0.4.1 // indirect
@@ -193,3 +193,5 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	tags.cncf.io/container-device-interface/specs-go v1.0.0 // indirect
 )
+
+replace github.com/containers/image/v5 => github.com/dezza/containers-image/v5 v5.36.2
